@@ -199,3 +199,150 @@ body {
         position: relative;
     }
 }
+/* About us section */
+.bg-color {
+    background-color: #eaedf2;
+}
+.about-left img {
+    width: 100%;
+}
+.about-right {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.about-right h2 {
+    font-size: 35px;
+    color: black;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.about-right h6 {
+    color: #f90505;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.about-right p {
+    line-height: 35px;
+    font-size: 16px;
+    margin-bottom: 50px;
+    letter-spacing: 0.2px;
+    word-spacing: 0.5px;
+}
+.about-right p span {
+    color: black;
+    font-weight: 600;
+    border-bottom: 3px solid red;
+}
+.about-right table tr td {
+    padding: 10px;
+}
+@media screen and (max-width:768px) {
+    .about-right table tr td,
+    .about-right table tr th {
+        padding: 10px 0px;
+        font-size: 13px;
+    }   
+}
+@media screen and (max-width:500px) {
+    .about-right table tr td,
+    .about-right table tr th {
+        padding: 10px;
+        font-size: 16px;
+    }
+}
+ /* Counter section */
+ .counter {
+	background: white;
+	padding: 50px 40px;
+	position: relative;
+	top: -50px;
+	box-shadow: 0 2px 8px 0 rgb(0 0 0 / 10%);
+}
+.counter-icon {
+	float: left;
+}
+.counter-icon i {
+	font-size: 50px;
+	color: #FF5722;
+	margin-top: 10px;
+	margin-right: 15px;
+}
+.counter-icon h5 {
+	font-size: 41px;
+	color: black;
+	font-weight: 600;
+	margin: 0px;
+}
+.counter-icon p {
+	margin: 0px;
+	line-height: 10px;
+	font-size: 14px;
+}
+@media screen and (max-width:768px) {
+	.counter {
+		padding: 20px 20px;
+	}
+	.counter .col-6 {
+		margin-bottom: 30px;
+	}
+}
+@media screen and (max-width:500px) {
+	.counter {
+		padding: 10px 10px;
+	}
+	.counter .col-6 {
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+	.counter-icon i {
+		font-size: 30px;
+		margin-right: 5px;
+	}
+	.counter-icon h5 {
+		font-size: 25px;
+	}
+}
+/* Skill Section */
+.about-skill {
+	padding: 50px 0px;
+}
+.about-skill p {
+	font-size: 19px;
+	line-height: 30px;
+	color: black;
+}
+.about-skill p span {
+	color: red;
+	font-weight: 600;
+}
+.skill-section {
+	font-size: 25px;
+	color: black;
+	font-weight: 400;
+	margin-bottom: 25px;
+}
+.skill-section p {
+	float: left;
+	margin-bottom: 4px;
+	color: black;
+	font-size: 15px;
+}
+.skill-section span {
+	float: right;
+	margin-bottom: 5px;
+	color: black;
+	font-size: 15px;
+	margin-right: 40px;
+}
+.skill-experience {
+	width: 100%;
+	float: left;
+	background: #e7e7e7;
+	border-radius: 10px;
+	margin-bottom: 25px;
+}
+.skill-experience span {
+	background: red;
+	height: 5px;
+	float: left;
+}
