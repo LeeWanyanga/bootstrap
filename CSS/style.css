@@ -12,7 +12,7 @@ body {
 
 /* About us section */
 .bg-color {
-    background-color: #0cc8e9;
+    background-color: #e90c3c;
 }
 .about-left img {
     width: 100%;
@@ -71,7 +71,10 @@ body {
     color: black;
 }
 .offcanvas-header {
-    justify-content: end;
+    justify-content: center;
+}
+.close {
+    justify-content: right;
 }
 .nav-link {
     color: black;
@@ -83,11 +86,14 @@ body {
     margin: 0px;
 }
 .navbar .info a {
-    font-size: 245px;
-    color: black;
+    font-size: 20px;
+    color: rgb(197, 35, 35);
 }
 .pb-100 {
     padding-bottom: 100px;
+}
+.navbar-toggler {
+    color: #212121;
 }
 /* About Us section */
 .about-detail {
@@ -147,12 +153,12 @@ body {
 }
 @-webkit-keyframes caret {
     50% {
-        color: transparent;
+        color: t;
     }
 }
 @keyframes caret {
     50% {
-        color: transparent;
+        color: t;
     }
 }
 @media screen and (max-width:768px) {
@@ -201,10 +207,11 @@ body {
 }
 /* About us section */
 .bg-color {
-    background-color: #eaedf2;
+    background-color: gray;
 }
 .about-left img {
     width: 100%;
+    height: auto;
 }
 .about-right {
     padding-top: 80px;
@@ -417,7 +424,7 @@ body {
 	font-size: 15px;
 }
 .service-border {
-	text-align: center;
+	text-align: left;
 	justify-content: center;
 	display: flex;
 }
