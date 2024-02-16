@@ -9,6 +9,62 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
+<<<<<<< HEAD
+=======
+
+/* About us section */
+.bg-color {
+    background-color: #e90c3c;
+}
+.about-left img {
+    width: 100%;
+}
+.about-right {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.about-right h2 {
+    font-size: 35px;
+    color: black;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.about-right h6 {
+    color: #f90505;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.about-right p {
+    line-height: 35px;
+    font-size: 16px;
+    margin-bottom: 50px;
+    letter-spacing: 0.2px;
+    word-spacing: 0.5px;
+}
+.about-right p span {
+    color: black;
+    font-weight: 600;
+    border-bottom: 3px solid red;
+}
+.about-right table tr td {
+    padding: 10px;
+}
+@media screen and (max-width:768px) {
+    .about-right table tr td,
+    .about-right table tr th {
+        padding: 10px 0px;
+        font-size: 13px;
+    }
+}
+@media screen and (max-width:500px) {
+    .about-right table tr td,
+    .about-right table tr th {
+        padding: 10px;
+        font-size: 16px;
+    }
+}
+
+>>>>>>> 517cd34319a57dc110d45408fbade6ef002576c5
 /* Logo, Menu and about details section */
 .navbar {
     padding-top: 35px;
@@ -18,8 +74,15 @@ body {
     color: black;
 }
 .offcanvas-header {
+<<<<<<< HEAD
     justify-content: end;
     color: black;
+=======
+    justify-content: center;
+}
+.close {
+    justify-content: right;
+>>>>>>> 517cd34319a57dc110d45408fbade6ef002576c5
 }
 .nav-link {
     color: black;
@@ -32,7 +95,11 @@ body {
 }
 .navbar .info a {
     font-size: 20px;
+<<<<<<< HEAD
     color: black;
+=======
+    color: rgb(197, 35, 35);
+>>>>>>> 517cd34319a57dc110d45408fbade6ef002576c5
 }
 .pb-100 {
     padding-bottom: 100px;
@@ -40,9 +107,12 @@ body {
 .navbar-toggler {
     color: #212121;
 }
+<<<<<<< HEAD
 button {
     color: black;
 }
+=======
+>>>>>>> 517cd34319a57dc110d45408fbade6ef002576c5
 /* About Us section */
 .about-detail {
     padding-top: 35%;
@@ -101,12 +171,12 @@ button {
 }
 @-webkit-keyframes caret {
     50% {
-        color: transparent;
+        color: t;
     }
 }
 @keyframes caret {
     50% {
-        color: transparent;
+        color: t;
     }
 }
 @media screen and (max-width:768px) {
@@ -155,10 +225,15 @@ button {
 }
 /* About us section */
 .bg-color {
+<<<<<<< HEAD
     background-color: #fff;
+=======
+    background-color: gray;
+>>>>>>> 517cd34319a57dc110d45408fbade6ef002576c5
 }
 .about-left img {
     width: 100%;
+    height: auto;
 }
 .about-right {
     padding-top: 80px;
@@ -370,7 +445,7 @@ button {
 	font-size: 15px;
 }
 .service-border {
-	text-align: center;
+	text-align: left;
 	justify-content: center;
 	display: flex;
 }
